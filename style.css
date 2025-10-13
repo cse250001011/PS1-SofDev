@@ -154,3 +154,8 @@ body {
 .footer-links a:hover {
     color: #0078ff;
 }
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 1024px) {
+  .features {
+    grid-template-columns: repeat(2, 1fr);
